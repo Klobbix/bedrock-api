@@ -1,0 +1,27 @@
+{
+  "name": "bedrock-api",
+  "version": "1.16.20",
+  "description": "Minecraft Bedrock Typescript API",
+  "author": "Tom Salsgiver (Klobbix@gmail.com, tom@cinema.dev)",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CinemaCraftLLC/bedrock-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CinemaCraftLLC/bedrock-api/issues"
+  },
+  "homepage": "https://github.com/CinemaCraftLLC/bedrock-api#readme",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "typescript": "4.0.5"
+  }
+}

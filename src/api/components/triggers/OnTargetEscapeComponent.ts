@@ -1,0 +1,20 @@
+/**
+ * Adds a trigger to call when this entity loses the target it currently has.
+ */
+declare interface OnTargetEscapeComponent {
+	/**
+	 * The event to run when the conditions for this trigger are met
+	 */
+	event: string;
+
+	/**
+	 * The list of conditions for this trigger
+	 */
+	filters: Filter;
+
+	/**
+	 * The target of the event.
+	 * @default self
+	 */
+	target: string;
+}
